@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Creative Portfolio</title>
+  <style>
+    /* Reset and base styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #6b73ff, #000dff);
+      color: white;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      overflow-x: hidden;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+      animation: fadeInDown 1.2s ease forwards;
+      opacity: 0;
+    }
+
+    header h1 {
+      font-size: 3.5rem;
+      letter-spacing: 0.1em;
+      text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+    }
+
+    header p {
+      font-size: 1.3rem;
+      color: #b0e0ff;
+      margin-top: 0.5rem;
+      font-style: italic;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 2rem;
+      padding: 0.8rem 2rem;
+      font-size: 1.1rem;
+      border: 2px solid #00ffff;
+      border-radius: 30px;
+      color: #00ffff;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 15px #00ffff;
+      animation: glow 2s ease-in-out infinite alternate;
+    }
+
+    .button:hover {
+      background-color: #00ffff;
+      color: #000dff;
+      box-shadow: 0 0 30px #00ffff;
+      transform: scale(1.05);
+    }
+
+    main {
+      max-width: 900px;
+      padding: 0 1rem;
+      animation: fadeInUp 1.2s ease forwards;
+      opacity: 0;
+      animation-delay: 1s;
+    }
+
+    main section {
+      margin-bottom: 3rem;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 1.5rem 2rem;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 255, 255, 0.4);
+      backdrop-filter: blur(10px);
+    }
+
+    main section h2 {
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #00ffff;
+      padding-bottom: 0.3rem;
+      letter-spacing: 0.05em;
+    }
+
+    main section p {
+      line-height: 1.6;
+      color: #cceeff;
+    }
+
+    footer {
+      margin-top: auto;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #88ccff88;
+    }
+
+    /* Animations */
+    @keyframes glow {
+      from {
+        box-shadow: 0 0 15px #00ffff;
+      }
+      to {
+        box-shadow: 0 0 30px #00ffff;
+      }
+    }
+
+    @keyframes fadeInDown {
+      0% {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeInUp {
+      0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.5rem;
+      }
+
+      .button {
+        padding: 0.6rem 1.5rem;
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Creative Sparks</h1>
+    <p>Where imagination meets code</p>
+    <a href="#about" class="button">Discover More</a>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hi! I’m a passionate web developer and digital artist who loves blending creativity with technology.
+        My work focuses on creating beautiful, interactive experiences on the web.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>
+        From stunning websites to dynamic web applications, I build projects that are not only functional but also a joy to explore.
+        Check out my portfolio to see some of my favorite works.
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        Want to collaborate or just say hi? Feel free to reach out via email or social media.
+        Let’s create something amazing together!
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Creative Sparks. All rights reserved.
+  </footer>
+</body>
+</html>
