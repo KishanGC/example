@@ -1,10 +1,10 @@
 # 🌱 Leftovers to Life
 
-> **Smart India Hackathon 2025 | Team INFINITE**
+> **Team Neural Ninjas**
 > A full-stack food redistribution platform that connects food donors with NGOs and agricultural trusts to reduce waste and feed communities.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![SIH 2025](https://img.shields.io/badge/SIH-2025-orange.svg)](https://www.sih.gov.in)
+[![Team](https://img.shields.io/badge/Team-Neural%20Ninjas-purple.svg)](#)
 [![UN SDG](https://img.shields.io/badge/UN%20SDG-Zero%20Hunger-blue.svg)](https://sdgs.un.org/goals/goal2)
 
 ---
@@ -124,8 +124,8 @@ leftovers-to-life/
 ### Step 1 — Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/leftovers-to-life.git
-cd leftovers-to-life
+git clone https://github.com/KishanGC/example.git
+cd example
 ```
 
 ### Step 2 — Backend setup
@@ -319,16 +319,15 @@ git add .
 # 3. Commit
 git commit -m "feat: complete Leftovers to Life full-stack app - SIH 2025"
 
-# 4. Create GitHub repo (go to github.com/new)
-# Then connect:
-git remote add origin https://github.com/YOUR_USERNAME/leftovers-to-life.git
+# 4. Connect to GitHub repo:
+git remote add origin https://github.com/KishanGC/example.git
 git branch -M main
 git push -u origin main
 ```
 
 ---
 
-## 👥 Team INFINITE — SIH 2025
+## 👥 Team Neural Ninjas
 
 | Role | Name |
 |------|------|
@@ -343,7 +342,7 @@ git push -u origin main
 
 ## 📄 License
 
-MIT License — Smart India Hackathon 2025 — Team INFINITE
+MIT License — Team Neural Ninjas
 
 ---
 
